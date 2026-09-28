@@ -10,6 +10,6 @@ Pada P2 saya membangun halaman profil menggunakan struktur HTML5 yang valid 5 ya
 - Berkas yang divalidasi: `index.html`
 - Galat yang ditemukan: [tuliskan jika ada]
 - Perbaikan yang dilakukan: [tuliskan]
-- Hasil validasi akhir: [tuliskan hasil]
+- Hasil validasi akhir: [Membuat website profil untuk mahasiswa]
 ## GitHub Pages
-URL: [tempel URL halaman P2]
+URL: [https://github.com/2622500029elisa/2622500029-PWB-SI1A-2627O/tree/main/pertemuan-02]
