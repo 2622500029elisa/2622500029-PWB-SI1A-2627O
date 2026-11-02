@@ -82,7 +82,8 @@ switch ($programStudi) {
 			<h2>Selamat Datang</h2>
 			<p>Halo, saya <strong><?php echo $namaMahasiswa; ?></strong>. Saya sedang mempelajari matakuliah <strong><?php print NAMA_MATA_KULIAH; ?></strong> pada tahun akademik <?php echo $tahunAkademik; ?>.</p>
 
-			<img src="img/foto-profil.jpeg" alt="Foto profil Elisa" />
+			<img src="img/foto-profil.jpeg" alt="Foto profil Elisa" " style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+    <p>Nama: Elisa Putri R.</p>
 		</section>
 
 		<section id="about">
