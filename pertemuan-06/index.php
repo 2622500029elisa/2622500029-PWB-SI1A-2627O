@@ -232,7 +232,7 @@ switch ($programStudi) {
 	</main>
 
 	<footer>
-		<p>&copy; <?= date("Y") ?> <?php echo $Elisa; ?> [<?= $2622500029 ?>]</p>
+		<p>&copy; <?= date("Y") ?> <?php echo $Elisa; ?> [2622500029]</p>
 	</footer>
 	<script src="script.js"></script>
 </body>
