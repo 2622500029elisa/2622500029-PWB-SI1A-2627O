@@ -1,300 +1,83 @@
-/* Pengaturan halaman */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* css buat els fashion - punya elisa */
+body{
+margin:0;
+font-family: Times New Roman;
+background-color: rgb(252, 102, 202);
+}
+.header{
+background-image: url("baju1.jpeg");
+background-color:hsl(329, 100%, 73%); /* warna ungu */
+padding:15px;
+font-size:26px;
+font-weight:bold;
+}
+.container{
+display:table;
+width:100%;
+}
+.sidebar{
+display:table-cell;
+width:15%;
+background:#f77cd4;
+vertical-align:top;
+padding:20px;
+}
+.sidebar a{
+display:block;
+margin-bottom:50px;
+text-decoration:none;
+color:rgb(154, 154, 251);
+}
+.content{
+display:table-cell;
+width:85%;
+background:url('img/bg.jpg');
+padding:20px;
+}
+.footer{
+background:hsl(323, 97%, 73%);
+padding:10px;
+font-weight:bold;
+}
+.food-img{
+width:90px;
+height:90px;
+border-radius:50%;
+margin:5px;
+}
+input, textarea{
+width:250px;
+padding:5px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fdf3f8;
-    color: #333;
-}
 
-/* Bagian menu */
-header {
-    background-color: #f4a6c8;
-    padding: 15px 30px;
-}
-
-header h1 {
-    color: white;
-    display: inline-block;
-}
-
-nav {
-    float: right;
-    margin-top: 8px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-nav a:hover {
-    color: #d9efff;
-}
-
-/* Bagian utama */
-.container {
-    width: 90%;
-    margin: 25px auto;
-}
-
-/* Banner */
-.banner {
-    background-color: #c7e7f8;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.banner h2 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.banner p {
-    font-size: 16px;
-}
-
-/* Daftar produk */
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.product {
-    background-color: white;
-    width: 220px;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #eee;
-    text-align: center;
-}
-
-.product img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.product h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.product p {
-    color: #e45b9a;
-    margin-bottom: 10px;
-}
-
-/* Tombol */
 button {
-    background-color: #f4a6c8;
-    color: white;
+    background-color: #e876be;
+    padding: 10px 20px;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #df78a8;
+    background-color: #e971b3;
 }
 
-/* Bagian profil */
-.profile {
-    background-color: #c7e7f8;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 8px;
-}
 
-.profile h2 {
-    margin-bottom: 10px;
-}
+/* HEADER DENGAN FOTO BACKGROUND */
 
-/* Footer */
-footer {
-    background-color: #f4a6c8;
-    color: white;
+.header {
+    background-image: url('baju3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 20px 20px;
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
-
-/* Tampilan HP */
-@media screen and (max-width: 600px) {
-    header h1 {
-        display: block;
-        text-align: center;
-    }
-
-    nav {
-        float: none;
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    nav a {
-        margin: 5px;
-    }
-
-    .product-list {
-        justify-content: center;
-    }
-
-    .product {
-        width: 100%;
-    }
-}
-/* Pengaturan dasar halaman */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fdf3f8;
-    color: #333;
-}
-/* Header dan menu */
-header {
-    background-color: #f4a6c8;
-    padding: 15px 30px;
-}
-
-header h1 {
     color: white;
-    display: inline-block;
-}
 
-nav {
-    float: right;
-    margin-top: 8px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-nav a:hover {
-    color: #d9efff;
-}
-/* Bagian utama */
-.container {
-    width: 90%;
-    margin: 25px auto;
-}
-
-/* Banner utama */
-.banner {
-    background-color: #c7e7f8;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.banner h2 {
-    margin-bottom: 10px;
-}
-/* Daftar produk */
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.product {
-    background-color: white;
-    width: 220px;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #eee;
-    text-align: center;
-}
-
-.product img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-.product h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-
-.product p {
-    color: #e45b9a;
-    margin-bottom: 10px;
-}
-/* Tombol pembelian */
-button {
-    background-color: #f4a6c8;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #df78a8;
-}
-/* Profil pemilik website */
-.profile {
-    background-color: #c7e7f8;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 8px;
-}
-
-.profile h2 {
-    margin-bottom: 10px;
-}
-/* Bagian footer */
-footer {
-    background-color: #f4a6c8;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
-/* Tampilan untuk layar kecil */
-@media screen and (max-width: 600px) {
-    header h1 {
-        display: block;
-        text-align: center;
-    }
-
-    nav {
-        float: none;
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    nav a {
-        margin: 5px;
-    }
-
-    .product-list {
-        justify-content: center;
-    }
-
-    .product {
-        width: 100%;
-    }
+    min-height: 150px;
+    text-shadow: 2px 2px 4px rgb(228, 34, 125);
 }
