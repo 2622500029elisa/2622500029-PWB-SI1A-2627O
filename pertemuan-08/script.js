@@ -1,5 +1,29 @@
 // Script buat cek buku tamu ElsFashion
 
+const sections = document.querySelectorAll('section');
+const menuLinks = document.querySelectorAll('nav a');
+const heroButton = document.querySelector('.hero-button');
+
+function showSection(targetid) {
+    sections .foreach(section => {
+        section.hidden = section.id !== targetid;
+    });
+    menuLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === '#' + targetid);
+    });
+
+    history.pushState(null, null, '#' + targetid);
+}
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', event => {
+        event.preventDefault();
+        const targetid = link.getAttribute('href').substring(1);
+        showSection(targetid);
+    });
+});
+
+
 function cekForm(){
 
     var nama = document.getElementById("nama").value;
