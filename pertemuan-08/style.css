@@ -12,8 +12,9 @@ font-size:26px;
 font-weight:bold;
 }
 .container{
-display:table;
+display:flex;
 width:100%;
+flex: 1;
 }
 .sidebar{
 display:table-cell;
@@ -36,8 +37,10 @@ padding:20px;
 }
 .footer{
 background:hsl(323, 97%, 73%);
-padding:10px;
+padding: 15px;
 font-weight:bold;
+text-align: center;
+width:100%;
 }
 .food-img{
 width:90px;

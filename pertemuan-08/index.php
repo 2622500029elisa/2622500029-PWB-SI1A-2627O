@@ -81,7 +81,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </p>
     </div>
 </div>
-<div class="footer">Els_Fashion</div>
+   <footer>
+   >Els_Fashion</div>
+   </footer>
 <scpript src="script.js"></script>
 </body>
 </html>
