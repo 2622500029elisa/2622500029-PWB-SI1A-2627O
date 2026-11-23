@@ -178,8 +178,8 @@ $nomorSemester++;
 <h2>Kontak</h2>
 <p>
 Kunjungi
-<a target="_blank" href="https://github.com/<?= bersihkan(PROFIL_GITHUB); ?>">profil GitHub
-saya</a>.
+<a target="_blank" href="https://github.com/2622500029elisa<?= bersihkan(PROFIL_GITHUB); ?>">profil GitHub
+elisa</a>.
 </p>
 <form id="contactForm" class="js-contact-form" data-validation="contact" action="index.php"
 method="post" novalidate>
